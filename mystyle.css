@@ -1,0 +1,165 @@
+/* GENERAL *********************************************/
+body {
+  background-image: url(img3.jpg);
+  /* background-size: cover; */
+  font-family: 'Open Sans', sans-serif;
+  color: #2B2B2A;
+}
+
+h1 {
+  font-family: 'Source Code Pro', monospace;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+/* HEADER **********************************************/
+header {
+  box-sizing: border-box;
+  position: relative;
+
+  padding: 5% 15%;
+  margin: 10vw;
+  margin-bottom: 0;
+  width: 80%;
+
+  background-color: #FAFAFA;
+  text-align: center;
+}
+
+header h1 {
+  color: #000;
+  font-weight: 700;
+  font-size: 3em;
+}
+
+header h2 {
+  font-size: 1.5em;
+  color: #BFBDB9;
+}
+
+header p {
+  margin-top: 50px;
+}
+
+header a {
+  color: #BFBDB9;
+}
+
+header a:hover {
+  color: pink;
+  text-decoration: none;
+}
+
+.header__año {
+  box-sizing: border-box;
+  position: relative;
+  top: 15px;
+  left: 20px;
+
+  border-left: 2px solid pink;
+  border-right: 2px solid pink;
+
+  width: 70px;
+  height: 35px;
+
+  background-color: #FAFAFA;
+}
+
+.header__año p {
+  padding: 10px;
+}
+
+.header__recuadro {
+  padding: 5% 0;
+  border: 1px solid #000;
+  width: 100%;
+
+  text-align: center;
+}
+
+/* MAIN *********************************************/
+.main {
+  box-sizing: border-box;
+  z-index: -1;
+  margin-left: 15vw;
+  margin-top: -50px;
+
+  padding-bottom: 100px;
+  border-top: 50px solid #BFBDB9;
+  border-right: 5vw solid transparent;
+  width: 80%;
+
+  background-color: #000;
+  color: #FAFAFA;
+}
+
+.main h1 {
+  color: #FAFAFA;
+}
+
+.main h2 {
+  font-size: 1em;
+  color: #BFBDB9;
+}
+
+/* EDUACION *****************************************/
+.educacion {
+  padding: 50px;
+}
+
+.educacion__inner {
+  padding-left: 5%;
+  border-left: 2px solid pink;
+}
+
+.educacion p {
+  color: #FAFAFA;
+}
+
+/* SKILLS *******************************************/
+.skills {
+  padding: 50px;
+}
+
+.table--borderless th, .table--borderless td {
+  border: none !important;
+}
+
+.skills td {
+  color: #BFBDB9;
+}
+
+.skills i {
+  color: pink;
+}
+
+/* BREAKPOINTS */
+@media only screen and (max-width: 800px) {
+  header {
+    padding: 2% 10%;
+  }
+
+  .header__recuadro {
+    padding: 50px 0;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  header h1 {
+    font-size: 2.2em;
+  }
+
+  header h2 {
+    font-size: 1em;
+  }
+
+  .main h1 {
+    font-size: 2em;
+  }
+
+  .main h2 {
+    font-size: 1em;
+  }
+}
